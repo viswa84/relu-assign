@@ -1,0 +1,17 @@
+
+/* hide scrollbar but allow scrolling */
+.story-box {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+  }
+  
+ .story-box::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+  
+  /* other styling */
+  .story-box {
+    height: 80vh;
+
+  }

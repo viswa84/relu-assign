@@ -1,0 +1,10 @@
+.app-container {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.landing-body {
+  display: flex;
+  /* justify-content: space-between; */
+  gap:1.5rem;
+  margin-top: 1.5rem;
+}

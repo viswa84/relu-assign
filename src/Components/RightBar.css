@@ -1,0 +1,97 @@
+.rightbar {
+    width: 270px;
+    /* background-color: #ffffff; */
+    border-radius: 10px;
+    height: 80vh;
+    position: relative;
+  }
+  
+/* hide scrollbar but allow scrolling */
+.rightbar {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+.rightbar::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+/* other styling */
+.rightbar {
+  height: 80vh;
+
+}
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .become-seller-btn {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #00c9a7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0px;
+    margin-left: 10px;
+
+  }
+  .tabs .b2 {
+    color:#8D8D8D
+  }
+  
+ 
+  
+  .card {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .avatar {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid white;
+  }
+  
+  .card-info {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-left: -20px;
+  }
+  
+  .card-info h2 {
+    margin-top: 0;
+    font-size: 16px;
+    line-height:6px;
+  }
+  
+  .card-info p {
+    font-size: 12px;
+    /* line-height: 0%; */
+    margin-top: 10px;
+  }

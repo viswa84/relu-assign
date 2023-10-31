@@ -1,0 +1,103 @@
+/* Add this CSS to your component's CSS file */
+.navbar {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-top: 40px;
+  gap: 1.3rem;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  width: 260px;
+  height: 80px;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+.logo-box .logo-text {
+  margin-left: 20px;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.search-logo-img {
+  height: 20px;
+  width: 20px;
+  margin-top: 26px;
+  margin-right: 3px;
+  /* padding: 5px; */
+}
+
+.search-box {
+  /* width: 620px; */
+  height: 80px;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  display: flex;
+  align-items: center;
+  /* Width: 38.75rem,
+height: 5rem */
+}
+.filter-box {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.filters-logo {
+  width: 26px;
+  height: 26px;
+}
+.filter-box span {
+  font: normal normal medium 14px/16px Gilroy;
+  letter-spacing: 0px;
+  color: #303030;
+}
+.search-box form {
+  background: #fff;
+  width: 500px;
+  height: 70px;
+  display: flex;
+  /* border-radius: 10px; */
+  margin-left: 30px;
+}
+.search-box form input {
+  /* flex: 1; */
+  border: none;
+  outline: none;
+  margin-top: 2px;
+}
+.search-box form input[placeholder] {
+  color: #9a9a9e;
+}
+.search-box form button {
+  border: none;
+  outline: none;
+  color: #fff;
+  /* background:tomato; */
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.seller-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 80px;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  font: normal normal 600 16px/19px Gilroy;
+  background: #88c2bb 0% 0% no-repeat padding-box;
+}
+.seller-box span {
+  font: normal normal 600 16px/19px Gilroy;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 15px;
+}
